@@ -21,6 +21,7 @@ const bookingController = require('./controllers/bookingController');
 const viewRouter = require('./routes/viewRoutes');
 
 // Start express app
+// Express App is initialized
 const app = express();
 
 app.enable('trust proxy');
